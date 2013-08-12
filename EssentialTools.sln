@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Web
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTools", "EssentialTools\EssentialTools.csproj", "{1730C03D-322B-4A73-933F-D53D26FD4172}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTools.Tests", "EssentialTools.Tests\EssentialTools.Tests.csproj", "{2CCDA2A8-15C0-4603-8BA3-7FC4FFCD5102}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{1730C03D-322B-4A73-933F-D53D26FD4172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1730C03D-322B-4A73-933F-D53D26FD4172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1730C03D-322B-4A73-933F-D53D26FD4172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CCDA2A8-15C0-4603-8BA3-7FC4FFCD5102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CCDA2A8-15C0-4603-8BA3-7FC4FFCD5102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CCDA2A8-15C0-4603-8BA3-7FC4FFCD5102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CCDA2A8-15C0-4603-8BA3-7FC4FFCD5102}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
