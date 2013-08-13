@@ -17,7 +17,7 @@ namespace EssentialTools.Models
             {
                 return totalParam * 0.9M;
             }
-            else if (10 < totalParam && totalParam <= 100)
+            else if (10 <= totalParam && totalParam <= 100)
             {
                 return totalParam - 5;
             }
