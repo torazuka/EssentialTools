@@ -24,6 +24,19 @@ namespace EssentialTools.Tests
         }
 
         [TestMethod]
+        public void Discount_Between_10_And_100() {
+            IDiscountHelper target = getTestObject();
+
+            decimal TenDollarDiscount = target.ApplyDiscount(10);
+            decimal HundredDollarDiscount = target.ApplyDiscount(100);
+            decimal FiftyDolllarDiscount = target.ApplyDiscount(50);
+
+            Assert.AreEqual(5, TenDollarDiscount, "$10 discount is wrong");
+            Assert.AreEqual(95, HundredDollarDiscount, "$100 discount is wrong");
+            Assert.AreEqual(45, FiftyDolllarDiscount, "$50 discount is wrong");
+        }
+
+        [TestMethod]
         public void Discount_Less_Than_10()
         {
             IDiscountHelper target = getTestObject();
